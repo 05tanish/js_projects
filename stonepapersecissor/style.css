@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0B1D51, #1e2a5a);
+  font-family: 'Segoe UI', sans-serif;
+  color: #FFE3A9;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#para {
+  font-size: 6vmin;
+  color: #FFE3A9;
+  margin-bottom: 4vmin;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 4vmin;
+  margin-bottom: 6vmin;
+  flex-wrap: wrap;
+}
+
+.choose {
+  height: 18vmin;
+  width: 18vmin;
+  background: #AEC8A4;
+  border: none;
+  border-radius: 50%;
+  font-size: 2.5vmin;
+  color: #0B1D51;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose:hover {
+  background: #94b38d;
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0 20px #FFE3A9;
+}
+
+.choose.clicked {
+  transform: scale(0.92);
+  box-shadow: 0 0 30px #FFE3A9;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 12vmin;
+  margin-bottom: 5vmin;
+  font-size: 3vmin;
+}
+
+.score p:first-child {
+  font-size: 4vmin;
+  margin-bottom: 1vmin;
+  font-weight: bold;
+}
+
+.result {
+  font-size: 3vmin;
+  margin-bottom: 4vmin;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+  margin-top: 5vmin;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5vmin;
+}
+
+.restart, .exit {
+  padding: 1.5vmin 4vmin;
+  font-size: 2.2vmin;
+  background-color: #FFE3A9;
+  color: #0B1D51;
+  border: none;
+  border-radius: 1.5vmin;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.restart:hover, .exit:hover {
+  background-color: #f5d07f;
+  transform: scale(1.05);
+
+}
+
+.message {
+  background-color: #f5d07f;
+  display: inline;
+  color: #1e2a5a;
+margin-top: 7vmin;
+font-size: 3vmin;
+  margin-bottom: 4vmin;
+  margin-top: 5vmin;
+}
