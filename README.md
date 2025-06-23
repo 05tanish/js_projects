@@ -9,6 +9,8 @@ Welcome to my `js_projects` repository! This is a personal collection of **mini 
 | Project | Description | Status |
 |--------|-------------|--------|
 | [🪨 Rock Paper Scissors](./rock-paper-scissors) | Classic RPS game with score tracking, animations, and game-over logic | ✅ Completed |
+| [calculator](./calculator)|build simple calculator | ✅ completed|
+| [tic toe game ](./tictoegame) | a  tic toe game | ✅ completed|
 
 <!-- Add new projects below as you build more -->
 <!-- | [🎯 Guess the Number](./guess-the-number) | Simple number guessing game with input feedback | 🛠️ In Progress | -->
